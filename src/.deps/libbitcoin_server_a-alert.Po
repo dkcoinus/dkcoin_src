@@ -1,0 +1,3376 @@
+libbitcoin_server_a-alert.o: alert.cpp alert.h serialize.h \
+ compat/endian.h config/bitcoin-config.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stdint.h \
+ c:/mingw32/i686-w64-mingw32/include/stdint.h \
+ c:/mingw32/i686-w64-mingw32/include/crtdefs.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_mac.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_secapi.h \
+ c:/mingw32/i686-w64-mingw32/include/vadefs.h \
+ c:/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h \
+ c:/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stddef.h \
+ c:/mingw32/i686-w64-mingw32/include/stddef.h compat/byteswap.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/algorithm \
+ c:/mingw32/i686-w64-mingw32/include/c++/utility \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++config.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/os_defines.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/cpu_defines.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_relops.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_pair.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/move.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/concept_check.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_algobase.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/functexcept.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/exception_defines.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/cpp_type_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ext/type_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ext/numeric_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator_base_types.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator_base_funcs.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/debug/debug.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/ptr_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/predefined_ops.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_algo.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/cstdlib \
+ c:/mingw32/i686-w64-mingw32/include/stdlib.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed/limits.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed/syslimits.h \
+ c:/mingw32/i686-w64-mingw32/include/limits.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h \
+ c:/mingw32/i686-w64-mingw32/include/malloc.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/algorithmfwd.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_heap.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_tempbuf.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_construct.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/new \
+ c:/mingw32/i686-w64-mingw32/include/c++/exception \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/atomic_lockfree_defines.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ext/alloc_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/allocator.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++allocator.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ext/new_allocator.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/memoryfwd.h \
+ c:/mingw32/i686-w64-mingw32/include/assert.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ios \
+ c:/mingw32/i686-w64-mingw32/include/c++/iosfwd \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stringfwd.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/postypes.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/cwchar \
+ c:/mingw32/i686-w64-mingw32/include/wchar.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_print_push.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_off_t.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_stat64.h \
+ c:/mingw32/i686-w64-mingw32/include/swprintf.inl \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/wchar_s.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/char_traits.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/localefwd.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++locale.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/clocale \
+ c:/mingw32/i686-w64-mingw32/include/locale.h \
+ c:/mingw32/i686-w64-mingw32/include/stdio.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/cctype \
+ c:/mingw32/i686-w64-mingw32/include/ctype.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/ios_base.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/ext/atomicity.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/gthr.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/gthr-default.h \
+ c:/mingw32/i686-w64-mingw32/include/pthread.h \
+ c:/mingw32/i686-w64-mingw32/include/errno.h \
+ c:/mingw32/i686-w64-mingw32/include/sys/types.h \
+ c:/mingw32/i686-w64-mingw32/include/process.h \
+ c:/mingw32/i686-w64-mingw32/include/signal.h \
+ c:/mingw32/i686-w64-mingw32/include/pthread_signal.h \
+ c:/mingw32/i686-w64-mingw32/include/sys/timeb.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h \
+ c:/mingw32/i686-w64-mingw32/include/pthread_compat.h \
+ c:/mingw32/i686-w64-mingw32/include/pthread_unistd.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/atomic_word.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_classes.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/string \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/ostream_insert.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/cxxabi_forced.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_function.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/backward/binders.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/range_access.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_string.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_string.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_classes.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/streambuf \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/streambuf.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_ios.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/cwctype \
+ c:/mingw32/i686-w64-mingw32/include/wctype.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/ctype_base.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/streambuf_iterator.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/ctype_inline.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_ios.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/limits \
+ c:/mingw32/i686-w64-mingw32/include/c++/map \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_tree.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_map.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_multimap.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/set \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_set.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_multiset.h \
+ c:/mingw32/i686-w64-mingw32/include/string.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/string_s.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/vector \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_uninitialized.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_vector.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_bvector.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/vector.tcc sync.h \
+ threadsafety.h \
+ c:/MinGW/msys/1.0/local/include/boost/thread/condition_variable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/platform.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/user.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/select_compiler_config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/compiler/gcc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/select_stdlib_config.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/cstddef \
+ c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/utility.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/stdlib/libstdcpp3.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/select_platform_config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/platform/win32.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/suffix.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/requires_threads.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/condition_variable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_primitives.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/workaround.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/auto_link.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/throw_exception.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/attribute_noreturn.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/exception.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/current_function.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/assert.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/iostream \
+ c:/mingw32/i686-w64-mingw32/include/c++/ostream \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/ostream.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/istream \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/istream.tcc \
+ c:/MinGW/msys/1.0/local/include/boost/thread/exceptions.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/stdexcept \
+ c:/MinGW/msys/1.0/local/include/boost/system/system_error.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/cassert \
+ c:/MinGW/msys/1.0/local/include/boost/system/error_code.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/system/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/system/api_config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/cstdint.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/operators.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/iterator \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stream_iterator.h \
+ c:/MinGW/msys/1.0/local/include/boost/noncopyable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/enable_if.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/functional \
+ c:/MinGW/msys/1.0/local/include/boost/cerrno.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/cerrno \
+ c:/MinGW/msys/1.0/local/include/boost/config/abi_prefix.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/abi_suffix.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/interlocked.hpp \
+ c:/mingw32/i686-w64-mingw32/include/intrin.h \
+ c:/mingw32/i686-w64-mingw32/include/setjmp.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/intrin-impl.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/x86intrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/ia32intrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xmmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mm_malloc.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/emmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/pmmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/tmmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/ammintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/smmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/popcntintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/wmmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/immintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avxintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx2intrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512fintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512erintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512pfintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512cdintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/shaintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/lzcntintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/bmiintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/bmi2intrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fmaintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/f16cintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/rtmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xtestintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mm3dnow.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/prfchwintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fma4intrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xopintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/lwpintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/tbmintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/rdseedintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fxsrintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xsaveintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xsaveoptintrin.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/adxintrin.h \
+ c:/mingw32/i686-w64-mingw32/include/dvec.h \
+ c:/mingw32/i686-w64-mingw32/include/fvec.h \
+ c:/mingw32/i686-w64-mingw32/include/ivec.h \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_data.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/thread_time.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_clock.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/c_time.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/ctime \
+ c:/mingw32/i686-w64-mingw32/include/time.h \
+ c:/mingw32/i686-w64-mingw32/include/_timeval.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/time_s.h \
+ c:/mingw32/i686-w64-mingw32/include/pthread_time.h \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/compiler_config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/locale_config.hpp \
+ c:/mingw32/i686-w64-mingw32/include/sys/time.h \
+ c:/MinGW/msys/1.0/local/include/boost/shared_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/shared_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/memory.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/memory \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_raw_storage_iter.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/backward/auto_ptr.h \
+ c:/MinGW/msys/1.0/local/include/boost/checked_delete.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/shared_count.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/bad_weak_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_has_sync.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/sp_typeinfo.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/typeinfo \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_convertible.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock_pool.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock_sync.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/yield_k.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/memory_order.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/operator_bool.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/microsec_time_clock.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/filetime_functions.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_defs.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/special_defs.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_defs.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/ptime.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_system.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/limits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/cmath.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/cmath \
+ c:/mingw32/i686-w64-mingw32/include/math.h \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_duration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/static_assert.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_resolution_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/int_adapter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/gregorian_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/year_month_day.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/period.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_calendar.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_weekday.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/constrained_value.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/value_wknd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/static_cast.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/workaround.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/integral.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/msvc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/eti.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/lambda_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/void_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/adl_barrier.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/adl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/intel.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/gcc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/bool.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/bool_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c_tag.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/static_constant.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/ctps.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/lambda.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/ttp.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/int.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/int_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/nttp_decl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/nttp.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/integral_wrapper.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/cat.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/config/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_arity_param.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/template_arity_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/dtp.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/preprocessor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/comma_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/comma_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/iif.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/bool.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/comma.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repeat.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/repeat.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/debug/error.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/auto_rec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/eat.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/inc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/inc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/enum.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/limits/arity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/and.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/bitand.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/identity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/identity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/add.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/dec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/while.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/fold_left.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/detail/fold_left.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/expr_iif.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/adt.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/is_binary.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/check.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/compl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/fold_right.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/detail/fold_right.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/reverse.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/detail/while.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/elem.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/overload.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/variadic/size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/rem.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/variadic/elem.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/sub.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/overload_resolution.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_support.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_base_of.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_base_and_derived.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/intrinsics.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_same.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/bool_trait_def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/template_arity_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/integral_constant.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/bool_trait_undef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_lvalue_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_rvalue_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/ice.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/yes_no_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_or.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_and.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_not.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_eq.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_volatile.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/cv_traits_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_cv.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/broken_compiler_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/type_trait_def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/type_trait_undef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_class.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_day_of_year.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian_calendar.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian_calendar.ipp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_ymd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_day.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_year.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_month.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_duration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_duration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_duration_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_duration_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_date.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/adjust_functors.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/wrapping_int.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_generators.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/sstream \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/sstream.tcc \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_clock_device.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/date_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_system_split.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_system_counted.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/date_duration_operators.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_duration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/time_period.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/time_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/dst_rules.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_heap_alloc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/no_exceptions_support.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/intrusive_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/intrusive_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/functional.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/system_clocks.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/duration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/detail/static_assert.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/climits \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/logical.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/or.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/use_preprocessed.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/nested_type_wknd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/include_preprocessed.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/compiler.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/stringize.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/and.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/not.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/ratio.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/abs.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/sign.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/gcd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/largest_int.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/dependent_nttp.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/lcm.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/integer_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/ratio_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ratio/detail/overflow_helpers.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/common_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/typeof/typeof.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/typeof/message.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/typeof/native.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_function.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/false_result.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/declval.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_rvalue_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_void.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_arithmetic.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_integral.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_float.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_convertible.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_array.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_abstract.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_lvalue_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_floating_point.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_unsigned.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_enum.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/detail/is_evenly_divisible_by.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/time_point.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/detail/system.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/version.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/clock_string.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/interlocked_read.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/cv_status.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/scoped_enum_emulation.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/xtime.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/conversion.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/cstring \
+ c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/conversion.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/basic_timed_mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/chrono/ceil.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/lock_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/move.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_reference.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/decay.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_bounds.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/eval_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/identity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/delete.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/utility.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/detail/config_begin.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/core.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/detail/meta_utils.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/detail/config_end.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_destructor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_pod.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_scalar.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_member_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_member_function_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_nothrow_move_constructible.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_move_constructor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_copy.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_copy.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_nothrow_move_assignable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_move_assign.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_const.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_assign.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_assign.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/lock_options.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/lockable_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/lock_guard.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/lockable_wrapper.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/locks.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/lock_algorithms.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/recursive_mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/recursive_mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/basic_recursive_mutex.hpp \
+ clientversion.h config/bitcoin-config.h net.h bloom.h compat.h \
+ c:/mingw32/i686-w64-mingw32/include/winsock2.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_unicode.h \
+ c:/mingw32/i686-w64-mingw32/include/windows.h \
+ c:/mingw32/i686-w64-mingw32/include/sdkddkver.h \
+ c:/mingw32/i686-w64-mingw32/include/excpt.h \
+ c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stdarg.h \
+ c:/mingw32/i686-w64-mingw32/include/stdarg.h \
+ c:/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h \
+ c:/mingw32/i686-w64-mingw32/include/windef.h \
+ c:/mingw32/i686-w64-mingw32/include/minwindef.h \
+ c:/mingw32/i686-w64-mingw32/include/winapifamily.h \
+ c:/mingw32/i686-w64-mingw32/include/specstrings.h \
+ c:/mingw32/i686-w64-mingw32/include/sal.h \
+ c:/mingw32/i686-w64-mingw32/include/winnt.h \
+ c:/mingw32/i686-w64-mingw32/include/apiset.h \
+ c:/mingw32/i686-w64-mingw32/include/basetsd.h \
+ c:/mingw32/i686-w64-mingw32/include/guiddef.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack4.h \
+ c:/mingw32/i686-w64-mingw32/include/poppack.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack4.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack2.h \
+ c:/mingw32/i686-w64-mingw32/include/poppack.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack2.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack8.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack8.h \
+ c:/mingw32/i686-w64-mingw32/include/ktmtypes.h \
+ c:/mingw32/i686-w64-mingw32/include/winbase.h \
+ c:/mingw32/i686-w64-mingw32/include/apisetcconv.h \
+ c:/mingw32/i686-w64-mingw32/include/minwinbase.h \
+ c:/mingw32/i686-w64-mingw32/include/bemapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/debugapi.h \
+ c:/mingw32/i686-w64-mingw32/include/errhandlingapi.h \
+ c:/mingw32/i686-w64-mingw32/include/fibersapi.h \
+ c:/mingw32/i686-w64-mingw32/include/fileapi.h \
+ c:/mingw32/i686-w64-mingw32/include/handleapi.h \
+ c:/mingw32/i686-w64-mingw32/include/heapapi.h \
+ c:/mingw32/i686-w64-mingw32/include/ioapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/interlockedapi.h \
+ c:/mingw32/i686-w64-mingw32/include/jobapi.h \
+ c:/mingw32/i686-w64-mingw32/include/libloaderapi.h \
+ c:/mingw32/i686-w64-mingw32/include/memoryapi.h \
+ c:/mingw32/i686-w64-mingw32/include/namedpipeapi.h \
+ c:/mingw32/i686-w64-mingw32/include/namespaceapi.h \
+ c:/mingw32/i686-w64-mingw32/include/processenv.h \
+ c:/mingw32/i686-w64-mingw32/include/processthreadsapi.h \
+ c:/mingw32/i686-w64-mingw32/include/processtopologyapi.h \
+ c:/mingw32/i686-w64-mingw32/include/profileapi.h \
+ c:/mingw32/i686-w64-mingw32/include/realtimeapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/securityappcontainer.h \
+ c:/mingw32/i686-w64-mingw32/include/securitybaseapi.h \
+ c:/mingw32/i686-w64-mingw32/include/synchapi.h \
+ c:/mingw32/i686-w64-mingw32/include/sysinfoapi.h \
+ c:/mingw32/i686-w64-mingw32/include/systemtopologyapi.h \
+ c:/mingw32/i686-w64-mingw32/include/threadpoolapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/threadpoollegacyapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/utilapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/wow64apiset.h \
+ c:/mingw32/i686-w64-mingw32/include/winerror.h \
+ c:/mingw32/i686-w64-mingw32/include/fltwinerror.h \
+ c:/mingw32/i686-w64-mingw32/include/timezoneapi.h \
+ c:/mingw32/i686-w64-mingw32/include/wingdi.h \
+ c:/mingw32/i686-w64-mingw32/include/pshpack1.h \
+ c:/mingw32/i686-w64-mingw32/include/winuser.h \
+ c:/mingw32/i686-w64-mingw32/include/tvout.h \
+ c:/mingw32/i686-w64-mingw32/include/winnls.h \
+ c:/mingw32/i686-w64-mingw32/include/datetimeapi.h \
+ c:/mingw32/i686-w64-mingw32/include/stringapiset.h \
+ c:/mingw32/i686-w64-mingw32/include/wincon.h \
+ c:/mingw32/i686-w64-mingw32/include/winver.h \
+ c:/mingw32/i686-w64-mingw32/include/winreg.h \
+ c:/mingw32/i686-w64-mingw32/include/reason.h \
+ c:/mingw32/i686-w64-mingw32/include/winnetwk.h \
+ c:/mingw32/i686-w64-mingw32/include/wnnc.h \
+ c:/mingw32/i686-w64-mingw32/include/virtdisk.h \
+ c:/mingw32/i686-w64-mingw32/include/stralign.h \
+ c:/mingw32/i686-w64-mingw32/include/sec_api/stralign_s.h \
+ c:/mingw32/i686-w64-mingw32/include/winsvc.h \
+ c:/mingw32/i686-w64-mingw32/include/mcx.h \
+ c:/mingw32/i686-w64-mingw32/include/imm.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ws1_undef.h \
+ c:/mingw32/i686-w64-mingw32/include/_bsd_types.h \
+ c:/mingw32/i686-w64-mingw32/include/inaddr.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_socket_types.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_fd_types.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_types.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_wsadata.h \
+ c:/mingw32/i686-w64-mingw32/include/ws2def.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_wsa_errnos.h \
+ c:/mingw32/i686-w64-mingw32/include/qos.h \
+ c:/mingw32/i686-w64-mingw32/include/mswsock.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_xmitfile.h \
+ c:/mingw32/i686-w64-mingw32/include/ws2tcpip.h \
+ c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_mreq1.h \
+ c:/mingw32/i686-w64-mingw32/include/ws2ipdef.h \
+ c:/mingw32/i686-w64-mingw32/include/in6addr.h \
+ c:/mingw32/i686-w64-mingw32/include/mstcpip.h hash.h crypto/ripemd160.h \
+ crypto/sha256.h uint256.h version.h limitedmap.h mruset.h netbase.h \
+ protocol.h random.h streams.h support/allocators/zeroafterfree.h \
+ support/cleanse.h utilstrencodings.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/deque \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_deque.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/deque.tcc \
+ c:/MinGW/msys/1.0/local/include/boost/filesystem/path.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/filesystem/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/filesystem/path_traits.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/list \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_list.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/list.tcc \
+ c:/mingw32/i686-w64-mingw32/include/c++/locale \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets_nonio.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/time_members.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/messages_members.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/codecvt.h \
+ c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets_nonio.tcc \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_facade.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/interoperable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/detail/config_def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/detail/config_undef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/detail/facade_iterator_category.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_categories.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/placeholders.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/arg.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/arg_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_assert.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/assert.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/yes_no.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/arrays.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/pp_counter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arity_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arg_typedef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/indirect_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/detail/enable_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/addressof.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_const.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_const.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/always.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/apply.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/apply_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/apply_wrap.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_apply.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/has_xxx.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/type_wrapper.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/has_xxx.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/msvc_typename.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/elem.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/data.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/has_apply.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_never_true.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/lambda.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/bind.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/bind_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/bind.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/next.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/next_prior.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/common_name_wknd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/protect.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/full_lambda.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/quote.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/void.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/bcc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/template_arity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/io/detail/quoted_manip.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/io/ios_state.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/io_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/hash_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/foreach.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/end.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/implementation_help.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/common.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/sfinae.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/mutable_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/extract_optional_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/const_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/begin.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/rend.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/reverse_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/reverse_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/next_prior.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_adaptor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/rbegin.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/foreach_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/aligned_storage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/alignment_of.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/size_t_trait_def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/size_t.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/size_t_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/size_t_trait_undef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/type_with_alignment.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/for_each_i.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/for.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/detail/for.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/to_list.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/transform.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/append.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/signal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iterate.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/iterate.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/slot.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/detail/def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/detail/prologue.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/function_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/integer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/integer_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/composite_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_union.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/ref.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function_equal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/function_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mem_fn.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/get_pointer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn_template.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn_cc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/iter/forward1.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/detail/shared.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/detail/function_iterate.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/detail/maybe_include.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function/function_template.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/connection.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/null_output_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/function_output_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/unique_lock.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/slot.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/bind.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/is_placeholder.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/arg.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/visit_each.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/storage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/bind_template.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/bind_cc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/bind_mf_cc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/bind_mf2_cc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/bind/placeholders.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signals_common.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/signal_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signals_common_macros.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/tracked_objects_visitor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/slot_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/weak_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/weak_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/foreign_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/scoped_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/scoped_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/swap.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/expired_slot.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/apply_visitor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_unary.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/generic_result_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_binary.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_delayed.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/variant.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/variant_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/blank_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum_shifted_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/limits/list.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/substitute_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/backup_holder.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/enable_recursive_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/forced_return.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/initializer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/call_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/call_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/reference_content.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/recursive_wrapper_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/move.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/move.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/move/algorithm.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/iter_fold.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/begin_end.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/begin_end_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/begin_end_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/sequence_tag_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_begin.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/traits_lambda_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/sequence_tag.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_tag.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/O1_size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/O1_size_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/O1_size_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/long.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/long_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/forwarding.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/deref.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/pair.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_eti_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/make_variant_list.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/list20.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/list10.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/list0.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/push_front.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/push_front_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/item.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/tag.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/pop_front.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/pop_front_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/push_back.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/push_back_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/front.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/front_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/clear.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/clear_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/O1_size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/size_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/empty_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/begin_end.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_tags.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_spec.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/include_preprocessed.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/list.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/over_sequence.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/visitation_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/cast_storage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/hash_variant.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/static_visitor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/blank.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/templated_streams.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_stateless.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_constructor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/math/common_factor_ct.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/math_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_constructor.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/empty_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/find_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/find_if_pred.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_apply.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/iter_fold_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_fold_if_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/fold.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/front.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/front_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/is_sequence.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_range.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/max_element.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/less.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/comparison_op.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/numeric_op.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/numeric_cast.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/tag.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/numeric_cast_utils.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/push_front.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/push_front_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/same_as.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/sizeof.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/transform.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/reverse_fold.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/reverse_fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/pair_view.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_category.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/advance.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/advance_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/negate.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/advance_forward.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/advance_backward.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/prior.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/distance.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/distance_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/min_max.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/inserter_algorithm.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/back_inserter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/push_back.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/push_back_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/inserter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/front_inserter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/clear.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/clear_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/default_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/variant/detail/variant_io.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/trackable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/preprocessed_slot.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/deduce_r.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/deduce_z.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_binary_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params_with_a_default.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/intercept.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params_with_defaults.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted_binary_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing_binary_params.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/repeat_from_to.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/preprocessed_arg_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/preprocessed_arg_type_template.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/function_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_template.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/replace_slot_function.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/result_type_wrapper.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_groups.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/optional.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/optional/optional.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/none.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/none_t.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/compare_pointees.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/in_place_factory.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/detail/in_place_factory_prefix.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/paren.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/detail/in_place_factory_suffix.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/optional/optional_fwd.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_call_iterator.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/auto_buffer.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/multi_index/detail/scope_guard.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/swap.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/aligned_storage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/optional_last_value.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/lwm_win32_cs.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/preprocessed_signal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/div.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/comparison/less_equal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/not.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/mod.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/mul.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/expr_if.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/local.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/self.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signal_template.hpp \
+ pubkey.h timedata.h ui_interface.h \
+ c:/MinGW/msys/1.0/local/include/boost/signals2/last_value.hpp util.h \
+ tinyformat.h utiltime.h \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/classification.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/value_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/as_literal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/iterator_range.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/iterator_range_core.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/functions.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/size_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/difference_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/make_unsigned.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_signed.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_volatile.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/distance.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/empty.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/algorithm/equal.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/concepts.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept_check.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/assert.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/detail/general.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/detail/backward_compatibility.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/detail/has_constraints.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/conversion_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/usage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/detail/concept_def.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/for_each_i.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/seq.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/elem.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/size.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/enum.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/concept/detail/concept_undef.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_concepts.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/misc_concept.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/safe_bool.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/iterator_range_io.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/range/detail/str_types.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/classification.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/config.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/predicate_facade.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/replace.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/find_format.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/concept.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format_store.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/replace_storage.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/sequence_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/yes_no_type.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/sequence.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format_all.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/finder.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/constants.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/finder.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/compare.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/formatter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/formatter.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/util.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/thread.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/thread_only.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_heap_alloc.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/make_tuple_indices.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/invoke.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/is_convertible.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/hash.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/hash_float.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/float_functions.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/limits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/integer/static_log2.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/functional/hash/extensions.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/container_fwd.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/bitset \
+ c:/mingw32/i686-w64-mingw32/include/c++/complex \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_interruption.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/v2/thread.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_group.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/shared_mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/shared_mutex.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/once.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/win32/once.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/tss.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/barrier.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/result_of.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/utility/detail/result_of_iterate.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/future.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/detail/async_func.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/tuple/tuple.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/tuple/detail/tuple_basic.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/cv_traits.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/add_cv.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_volatile.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/exception_ptr.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/info.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/to_string_stub.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/to_string.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/is_output_streamable.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/object_hex_dump.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/type_info.hpp \
+ c:/mingw32/i686-w64-mingw32/include/c++/iomanip \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/error_info_impl.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/diagnostic_information.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/get_error_info.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/current_exception_cast.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/exception/detail/clone_current_exception.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/type_traits/is_fundamental.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/scoped_array.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/scoped_array.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/enable_shared_from_this.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/smart_ptr/enable_shared_from_this.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/thread/future_error_code.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/atomic_undef_macros.hpp \
+ c:/MinGW/msys/1.0/local/include/boost/detail/atomic_redef_macros.hpp
+
+alert.h:
+
+serialize.h:
+
+compat/endian.h:
+
+config/bitcoin-config.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stdint.h:
+
+c:/mingw32/i686-w64-mingw32/include/stdint.h:
+
+c:/mingw32/i686-w64-mingw32/include/crtdefs.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_mac.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_secapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/vadefs.h:
+
+c:/mingw32/i686-w64-mingw32/include/sdks/_mingw_directx.h:
+
+c:/mingw32/i686-w64-mingw32/include/sdks/_mingw_ddk.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stddef.h:
+
+c:/mingw32/i686-w64-mingw32/include/stddef.h:
+
+compat/byteswap.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/algorithm:
+
+c:/mingw32/i686-w64-mingw32/include/c++/utility:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++config.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/os_defines.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/cpu_defines.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_relops.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_pair.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/move.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/concept_check.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_algobase.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/functexcept.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/exception_defines.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/cpp_type_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ext/type_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ext/numeric_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator_base_types.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator_base_funcs.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/debug/debug.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_iterator.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/ptr_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/predefined_ops.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_algo.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cstdlib:
+
+c:/mingw32/i686-w64-mingw32/include/stdlib.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed/limits.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include-fixed/syslimits.h:
+
+c:/mingw32/i686-w64-mingw32/include/limits.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/stdlib_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/malloc.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/algorithmfwd.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_heap.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_tempbuf.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_construct.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/new:
+
+c:/mingw32/i686-w64-mingw32/include/c++/exception:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/atomic_lockfree_defines.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ext/alloc_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/allocator.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++allocator.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ext/new_allocator.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/memoryfwd.h:
+
+c:/mingw32/i686-w64-mingw32/include/assert.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ios:
+
+c:/mingw32/i686-w64-mingw32/include/c++/iosfwd:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stringfwd.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/postypes.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cwchar:
+
+c:/mingw32/i686-w64-mingw32/include/wchar.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_print_push.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_off_t.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_stat64.h:
+
+c:/mingw32/i686-w64-mingw32/include/swprintf.inl:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/wchar_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_print_pop.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/char_traits.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/localefwd.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/c++locale.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/clocale:
+
+c:/mingw32/i686-w64-mingw32/include/locale.h:
+
+c:/mingw32/i686-w64-mingw32/include/stdio.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/stdio_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cctype:
+
+c:/mingw32/i686-w64-mingw32/include/ctype.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/ios_base.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ext/atomicity.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/gthr.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/gthr-default.h:
+
+c:/mingw32/i686-w64-mingw32/include/pthread.h:
+
+c:/mingw32/i686-w64-mingw32/include/errno.h:
+
+c:/mingw32/i686-w64-mingw32/include/sys/types.h:
+
+c:/mingw32/i686-w64-mingw32/include/process.h:
+
+c:/mingw32/i686-w64-mingw32/include/signal.h:
+
+c:/mingw32/i686-w64-mingw32/include/pthread_signal.h:
+
+c:/mingw32/i686-w64-mingw32/include/sys/timeb.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/sys/timeb_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/pthread_compat.h:
+
+c:/mingw32/i686-w64-mingw32/include/pthread_unistd.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/atomic_word.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_classes.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/string:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/ostream_insert.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/cxxabi_forced.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_function.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/backward/binders.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/range_access.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_string.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_string.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_classes.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/streambuf:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/streambuf.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_ios.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cwctype:
+
+c:/mingw32/i686-w64-mingw32/include/wctype.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/ctype_base.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/streambuf_iterator.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/ctype_inline.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/basic_ios.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/limits:
+
+c:/mingw32/i686-w64-mingw32/include/c++/map:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_tree.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_map.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_multimap.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/set:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_set.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_multiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/string.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/string_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/vector:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_uninitialized.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_vector.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_bvector.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/vector.tcc:
+
+sync.h:
+
+threadsafety.h:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/condition_variable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/platform.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/user.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/select_compiler_config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/compiler/gcc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/select_stdlib_config.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cstddef:
+
+c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/utility.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/stdlib/libstdcpp3.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/select_platform_config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/platform/win32.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/suffix.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/requires_threads.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/condition_variable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_primitives.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/workaround.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/auto_link.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/throw_exception.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/attribute_noreturn.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/exception.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/current_function.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/assert.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/iostream:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ostream:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/ostream.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/istream:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/istream.tcc:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/exceptions.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/stdexcept:
+
+c:/MinGW/msys/1.0/local/include/boost/system/system_error.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cassert:
+
+c:/MinGW/msys/1.0/local/include/boost/system/error_code.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/system/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/system/api_config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/cstdint.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/operators.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/iterator:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stream_iterator.h:
+
+c:/MinGW/msys/1.0/local/include/boost/noncopyable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/enable_if.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/functional:
+
+c:/MinGW/msys/1.0/local/include/boost/cerrno.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cerrno:
+
+c:/MinGW/msys/1.0/local/include/boost/config/abi_prefix.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/abi_suffix.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/interlocked.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/intrin.h:
+
+c:/mingw32/i686-w64-mingw32/include/setjmp.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/intrin-impl.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/x86intrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/ia32intrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xmmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mm_malloc.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/emmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/pmmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/tmmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/ammintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/smmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/popcntintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/wmmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/immintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avxintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx2intrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512fintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512erintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512pfintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/avx512cdintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/shaintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/lzcntintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/bmiintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/bmi2intrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fmaintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/f16cintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/rtmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xtestintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/mm3dnow.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/prfchwintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fma4intrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xopintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/lwpintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/tbmintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/rdseedintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/fxsrintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xsaveintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/xsaveoptintrin.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/adxintrin.h:
+
+c:/mingw32/i686-w64-mingw32/include/dvec.h:
+
+c:/mingw32/i686-w64-mingw32/include/fvec.h:
+
+c:/mingw32/i686-w64-mingw32/include/ivec.h:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_data.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/thread_time.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_clock.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/c_time.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/ctime:
+
+c:/mingw32/i686-w64-mingw32/include/time.h:
+
+c:/mingw32/i686-w64-mingw32/include/_timeval.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/time_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/pthread_time.h:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/compiler_config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/locale_config.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/sys/time.h:
+
+c:/MinGW/msys/1.0/local/include/boost/shared_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/shared_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/memory.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/memory:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_raw_storage_iter.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/backward/auto_ptr.h:
+
+c:/MinGW/msys/1.0/local/include/boost/checked_delete.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/shared_count.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/bad_weak_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_has_sync.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_base_gcc_x86.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/sp_typeinfo.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/typeinfo:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_counted_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_convertible.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/sp_nullptr_t.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock_pool.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/spinlock_sync.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/yield_k.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/memory_order.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/detail/operator_bool.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/microsec_time_clock.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/filetime_functions.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_defs.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/special_defs.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_defs.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/ptime.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_system.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/limits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/cmath.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cmath:
+
+c:/mingw32/i686-w64-mingw32/include/math.h:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_duration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/static_assert.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_resolution_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/int_adapter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/gregorian_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/year_month_day.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/period.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_calendar.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_weekday.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/constrained_value.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/value_wknd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/static_cast.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/workaround.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/integral.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/msvc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/eti.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/lambda_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/void_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/adl_barrier.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/adl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/intel.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/gcc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/bool.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/bool_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c_tag.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/static_constant.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/ctps.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/lambda.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/ttp.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/int.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/int_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/nttp_decl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/nttp.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/integral_wrapper.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/cat.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/config/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_arity_param.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/template_arity_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/dtp.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/preprocessor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/comma_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/comma_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/iif.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/bool.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/comma.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repeat.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/repeat.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/debug/error.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/auto_rec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/eat.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/inc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/inc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/enum.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/limits/arity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/and.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/bitand.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/identity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/identity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/add.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/dec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/while.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/fold_left.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/detail/fold_left.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/expr_iif.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/adt.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/is_binary.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/detail/check.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/compl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/fold_right.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/detail/fold_right.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/reverse.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/detail/while.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/elem.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/overload.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/variadic/size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/rem.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/variadic/elem.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/sub.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/overload_resolution.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_support.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_base_of.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_base_and_derived.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/intrinsics.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_same.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/bool_trait_def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/template_arity_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/integral_constant.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/integral_c_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/bool_trait_undef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_lvalue_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_rvalue_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/ice.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/yes_no_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_or.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_and.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_not.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/ice_eq.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_volatile.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/cv_traits_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_cv.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/broken_compiler_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/type_trait_def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/type_trait_undef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_class.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_day_of_year.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian_calendar.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian_calendar.ipp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_ymd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_day.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_year.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_month.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_duration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_duration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_duration_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_duration_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/greg_date.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/adjust_functors.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/wrapping_int.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_generators.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/sstream:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/sstream.tcc:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_clock_device.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/date_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_system_split.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_system_counted.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/date_duration_operators.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/posix_time_duration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/time_period.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/time_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/dst_rules.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/thread_heap_alloc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/no_exceptions_support.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/intrusive_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/intrusive_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/config/no_tr1/functional.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/system_clocks.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/duration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/detail/static_assert.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/climits:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/logical.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/or.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/use_preprocessed.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/nested_type_wknd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/include_preprocessed.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/compiler.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/stringize.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/and.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/and.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/not.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/ratio.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/abs.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/sign.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/gcd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/largest_int.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/dependent_nttp.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/detail/mpl/lcm.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/integer_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/ratio_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ratio/detail/overflow_helpers.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/common_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/typeof/typeof.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/typeof/message.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/typeof/native.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_function.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/false_result.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/declval.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_rvalue_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_void.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_arithmetic.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_integral.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_float.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_convertible.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_array.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_abstract.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_lvalue_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_floating_point.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_unsigned.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_enum.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/detail/is_evenly_divisible_by.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/time_point.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/detail/system.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/version.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/clock_string.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/interlocked_read.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/cv_status.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/scoped_enum_emulation.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/xtime.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/posix_time/conversion.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/cstring:
+
+c:/MinGW/msys/1.0/local/include/boost/date_time/gregorian/conversion.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/basic_timed_mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/chrono/ceil.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/lock_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/move.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_reference.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/decay.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_bounds.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/eval_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/identity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/delete.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/utility.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/detail/config_begin.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/core.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/detail/meta_utils.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/detail/config_end.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_destructor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_pod.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_scalar.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_member_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_member_function_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/is_mem_fun_pointer_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_nothrow_move_constructible.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_move_constructor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_copy.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_copy.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_nothrow_move_assignable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_move_assign.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_const.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_assign.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_assign.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/lock_options.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/lockable_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/lock_guard.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/lockable_wrapper.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/locks.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/lock_algorithms.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/recursive_mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/recursive_mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/basic_recursive_mutex.hpp:
+
+clientversion.h:
+
+config/bitcoin-config.h:
+
+net.h:
+
+bloom.h:
+
+compat.h:
+
+c:/mingw32/i686-w64-mingw32/include/winsock2.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_unicode.h:
+
+c:/mingw32/i686-w64-mingw32/include/windows.h:
+
+c:/mingw32/i686-w64-mingw32/include/sdkddkver.h:
+
+c:/mingw32/i686-w64-mingw32/include/excpt.h:
+
+c:/mingw32/lib/gcc/i686-w64-mingw32/4.9.2/include/stdarg.h:
+
+c:/mingw32/i686-w64-mingw32/include/stdarg.h:
+
+c:/mingw32/i686-w64-mingw32/include/_mingw_stdarg.h:
+
+c:/mingw32/i686-w64-mingw32/include/windef.h:
+
+c:/mingw32/i686-w64-mingw32/include/minwindef.h:
+
+c:/mingw32/i686-w64-mingw32/include/winapifamily.h:
+
+c:/mingw32/i686-w64-mingw32/include/specstrings.h:
+
+c:/mingw32/i686-w64-mingw32/include/sal.h:
+
+c:/mingw32/i686-w64-mingw32/include/winnt.h:
+
+c:/mingw32/i686-w64-mingw32/include/apiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/basetsd.h:
+
+c:/mingw32/i686-w64-mingw32/include/guiddef.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack4.h:
+
+c:/mingw32/i686-w64-mingw32/include/poppack.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack4.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack2.h:
+
+c:/mingw32/i686-w64-mingw32/include/poppack.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack2.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack8.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack8.h:
+
+c:/mingw32/i686-w64-mingw32/include/ktmtypes.h:
+
+c:/mingw32/i686-w64-mingw32/include/winbase.h:
+
+c:/mingw32/i686-w64-mingw32/include/apisetcconv.h:
+
+c:/mingw32/i686-w64-mingw32/include/minwinbase.h:
+
+c:/mingw32/i686-w64-mingw32/include/bemapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/debugapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/errhandlingapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/fibersapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/fileapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/handleapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/heapapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/ioapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/interlockedapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/jobapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/libloaderapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/memoryapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/namedpipeapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/namespaceapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/processenv.h:
+
+c:/mingw32/i686-w64-mingw32/include/processthreadsapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/processtopologyapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/profileapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/realtimeapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/securityappcontainer.h:
+
+c:/mingw32/i686-w64-mingw32/include/securitybaseapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/synchapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/sysinfoapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/systemtopologyapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/threadpoolapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/threadpoollegacyapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/utilapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/wow64apiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/winerror.h:
+
+c:/mingw32/i686-w64-mingw32/include/fltwinerror.h:
+
+c:/mingw32/i686-w64-mingw32/include/timezoneapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/wingdi.h:
+
+c:/mingw32/i686-w64-mingw32/include/pshpack1.h:
+
+c:/mingw32/i686-w64-mingw32/include/winuser.h:
+
+c:/mingw32/i686-w64-mingw32/include/tvout.h:
+
+c:/mingw32/i686-w64-mingw32/include/winnls.h:
+
+c:/mingw32/i686-w64-mingw32/include/datetimeapi.h:
+
+c:/mingw32/i686-w64-mingw32/include/stringapiset.h:
+
+c:/mingw32/i686-w64-mingw32/include/wincon.h:
+
+c:/mingw32/i686-w64-mingw32/include/winver.h:
+
+c:/mingw32/i686-w64-mingw32/include/winreg.h:
+
+c:/mingw32/i686-w64-mingw32/include/reason.h:
+
+c:/mingw32/i686-w64-mingw32/include/winnetwk.h:
+
+c:/mingw32/i686-w64-mingw32/include/wnnc.h:
+
+c:/mingw32/i686-w64-mingw32/include/virtdisk.h:
+
+c:/mingw32/i686-w64-mingw32/include/stralign.h:
+
+c:/mingw32/i686-w64-mingw32/include/sec_api/stralign_s.h:
+
+c:/mingw32/i686-w64-mingw32/include/winsvc.h:
+
+c:/mingw32/i686-w64-mingw32/include/mcx.h:
+
+c:/mingw32/i686-w64-mingw32/include/imm.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ws1_undef.h:
+
+c:/mingw32/i686-w64-mingw32/include/_bsd_types.h:
+
+c:/mingw32/i686-w64-mingw32/include/inaddr.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_socket_types.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_fd_types.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_types.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_wsadata.h:
+
+c:/mingw32/i686-w64-mingw32/include/ws2def.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_wsa_errnos.h:
+
+c:/mingw32/i686-w64-mingw32/include/qos.h:
+
+c:/mingw32/i686-w64-mingw32/include/mswsock.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_xmitfile.h:
+
+c:/mingw32/i686-w64-mingw32/include/ws2tcpip.h:
+
+c:/mingw32/i686-w64-mingw32/include/psdk_inc/_ip_mreq1.h:
+
+c:/mingw32/i686-w64-mingw32/include/ws2ipdef.h:
+
+c:/mingw32/i686-w64-mingw32/include/in6addr.h:
+
+c:/mingw32/i686-w64-mingw32/include/mstcpip.h:
+
+hash.h:
+
+crypto/ripemd160.h:
+
+crypto/sha256.h:
+
+uint256.h:
+
+version.h:
+
+limitedmap.h:
+
+mruset.h:
+
+netbase.h:
+
+protocol.h:
+
+random.h:
+
+streams.h:
+
+support/allocators/zeroafterfree.h:
+
+support/cleanse.h:
+
+utilstrencodings.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/deque:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_deque.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/deque.tcc:
+
+c:/MinGW/msys/1.0/local/include/boost/filesystem/path.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/filesystem/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/filesystem/path_traits.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/list:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/stl_list.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/list.tcc:
+
+c:/mingw32/i686-w64-mingw32/include/c++/locale:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets_nonio.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/time_members.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/i686-w64-mingw32/bits/messages_members.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/codecvt.h:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bits/locale_facets_nonio.tcc:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_facade.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/interoperable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/detail/config_def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/detail/config_undef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/detail/facade_iterator_category.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_categories.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/placeholders.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/arg.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/arg_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/na_assert.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/assert.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/yes_no.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/arrays.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/pp_counter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arity_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/arg_typedef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/arg.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/placeholders.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/indirect_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/detail/enable_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/addressof.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_const.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_const.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/always.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/apply.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/apply_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/apply_wrap.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_apply.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/has_xxx.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/type_wrapper.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/has_xxx.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/msvc_typename.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/elem.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/data.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/array/size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/has_apply.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_never_true.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply_wrap.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/lambda.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/bind.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/bind_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/bind.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/bind_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/next.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/next_prior.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/common_name_wknd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/protect.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/bind.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/full_lambda.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/quote.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/void.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/bcc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/quote.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/template_arity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/template_arity.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/full_lambda.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/apply.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/io/detail/quoted_manip.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/io/ios_state.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/io_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/hash_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/foreach.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/end.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/implementation_help.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/common.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/sfinae.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/mutable_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/extract_optional_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/const_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/begin.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/rend.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/reverse_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/reverse_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/next_prior.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_adaptor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/rbegin.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/foreach_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/aligned_storage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/alignment_of.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/size_t_trait_def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/size_t.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/size_t_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/detail/size_t_trait_undef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/type_with_alignment.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/for_each_i.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/for.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/detail/for.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/tuple/to_list.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/transform.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/list/append.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/signal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iterate.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/iterate.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/slot.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/detail/def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/detail/prologue.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/function_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/integer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/integer_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/composite_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_union.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/ref.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function_equal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/function_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mem_fn.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/get_pointer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn_template.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/mem_fn_cc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/iter/forward1.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/bounds/lower1.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/slot/detail/shared.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/detail/bounds/upper1.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/detail/function_iterate.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/detail/maybe_include.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function/function_template.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/connection.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/null_output_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/function_output_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/unique_lock.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/slot.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/bind.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/is_placeholder.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/arg.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/visit_each.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/storage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/bind_template.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/bind_cc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/bind_mf_cc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/bind_mf2_cc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/bind/placeholders.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signals_common.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/signal_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signals_common_macros.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/tracked_objects_visitor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/slot_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/weak_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/weak_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/foreign_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/scoped_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/scoped_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/swap.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/expired_slot.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/apply_visitor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_unary.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/generic_result_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_binary.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/apply_visitor_delayed.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/variant.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/variant_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/blank_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/enum_shifted_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/limits/list.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/substitute_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/backup_holder.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/enable_recursive_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/forced_return.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/initializer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/call_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/call_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/reference_content.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/recursive_wrapper_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/move.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/move.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/move/algorithm.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/iter_fold.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/begin_end.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/begin_end_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/begin_end_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/sequence_tag_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_begin.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/traits_lambda_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/sequence_tag.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_tag.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/is_msvc_eti_arg.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/O1_size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/O1_size_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/O1_size_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/long.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/long_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/has_size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/config/forwarding.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/deref.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/pair.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/msvc_eti_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/make_variant_list.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/list20.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/list10.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/list0.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/push_front.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/push_front_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/item.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/tag.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/pop_front.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/pop_front_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/push_back.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/push_back_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/front.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/front_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/clear.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/clear_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/O1_size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/size_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/empty_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/begin_end.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_tags.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/lambda_spec.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/include_preprocessed.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/preprocessed/plain/list10.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/list/aux_/preprocessed/plain/list20.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/list.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/over_sequence.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/visitation_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/cast_storage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/hash_variant.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/static_visitor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/blank.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/templated_streams.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_stateless.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_trivial_constructor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/math/common_factor_ct.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/math_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/has_nothrow_constructor.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/empty_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/find_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/find_if_pred.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_apply.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/iter_fold_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/iter_fold_if_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/iter_fold_if_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/fold.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/front.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/front_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/is_sequence.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_range.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/max_element.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/less.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/comparison_op.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/numeric_op.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/numeric_cast.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/tag.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/numeric_cast_utils.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/less.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/push_front.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/push_front_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/same_as.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/sizeof.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/transform.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/reverse_fold.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/reverse_fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/reverse_fold_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/pair_view.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/iterator_category.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/advance.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/advance_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/negate.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/advance_forward.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/advance_forward.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/advance_backward.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/prior.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessed/gcc/advance_backward.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/distance.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/distance_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/min_max.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/inserter_algorithm.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/back_inserter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/push_back.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/push_back_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/inserter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/front_inserter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/clear.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/clear_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/mpl/aux_/preprocessor/default_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/variant/detail/variant_io.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/trackable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/preprocessed_slot.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/deduce_r.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/deduce_z.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_binary_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params_with_a_default.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/facilities/intercept.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_params_with_defaults.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_shifted_binary_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/enum_trailing_binary_params.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/repetition/repeat_from_to.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/preprocessed_arg_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/preprocessed_arg_type_template.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/function_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_template.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/replace_slot_function.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/result_type_wrapper.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_groups.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/optional.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/optional/optional.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/none.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/none_t.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/compare_pointees.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/in_place_factory.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/detail/in_place_factory_prefix.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/punctuation/paren.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/detail/in_place_factory_suffix.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/optional/optional_fwd.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/slot_call_iterator.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/auto_buffer.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/multi_index/detail/scope_guard.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/swap.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/aligned_storage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/optional_last_value.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/lwm_win32_cs.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/preprocessed_signal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/div.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/detail/div_base.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/comparison/less_equal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/logical/not.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/mod.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/arithmetic/mul.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/control/expr_if.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/local.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/iteration/self.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/detail/signal_template.hpp:
+
+pubkey.h:
+
+timedata.h:
+
+ui_interface.h:
+
+c:/MinGW/msys/1.0/local/include/boost/signals2/last_value.hpp:
+
+util.h:
+
+tinyformat.h:
+
+utiltime.h:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/classification.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/value_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/as_literal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/iterator_range.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/iterator_range_core.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/functions.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/size_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/difference_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/make_unsigned.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_signed.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_volatile.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/distance.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/empty.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/algorithm/equal.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/concepts.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept_check.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/assert.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/detail/general.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/detail/backward_compatibility.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/detail/has_constraints.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/conversion_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/usage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/detail/concept_def.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/for_each_i.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/seq.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/elem.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/size.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/preprocessor/seq/enum.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/concept/detail/concept_undef.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/iterator/iterator_concepts.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/misc_concept.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/safe_bool.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/iterator_range_io.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/range/detail/str_types.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/classification.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/config.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/predicate_facade.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/replace.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/find_format.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/concept.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format_store.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/replace_storage.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/sequence_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/yes_no_type.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/sequence.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/find_format_all.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/finder.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/constants.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/finder.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/compare.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/formatter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/formatter.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/algorithm/string/detail/util.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/thread.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/thread_only.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_heap_alloc.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/make_tuple_indices.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/invoke.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/is_convertible.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/hash.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/hash_float.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/float_functions.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/detail/limits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/integer/static_log2.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/functional/hash/extensions.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/container_fwd.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/bitset:
+
+c:/mingw32/i686-w64-mingw32/include/c++/complex:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_interruption.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/v2/thread.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/thread_group.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/shared_mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/shared_mutex.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/once.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/win32/once.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/tss.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/barrier.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/result_of.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/utility/detail/result_of_iterate.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/future.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/detail/async_func.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/tuple/tuple.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/tuple/detail/tuple_basic.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/cv_traits.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/add_cv.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/remove_volatile.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/exception_ptr.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/info.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/to_string_stub.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/to_string.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/is_output_streamable.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/object_hex_dump.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/type_info.hpp:
+
+c:/mingw32/i686-w64-mingw32/include/c++/iomanip:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/error_info_impl.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/diagnostic_information.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/get_error_info.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/current_exception_cast.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/exception/detail/clone_current_exception.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/type_traits/is_fundamental.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/scoped_array.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/scoped_array.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/enable_shared_from_this.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/smart_ptr/enable_shared_from_this.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/thread/future_error_code.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/atomic_undef_macros.hpp:
+
+c:/MinGW/msys/1.0/local/include/boost/detail/atomic_redef_macros.hpp:
